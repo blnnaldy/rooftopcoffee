@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
+    <header>
+        <nav>
+            <div class="logo">ModernSite</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Welcome to the Future of Web Design</h1>
+                <p>Experience seamless animations and a stunning dark mode.</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 data-aos="fade-right">About Us</h2>
+            <p data-aos="fade-left">We are a team of passionate developers creating modern and responsive websites. Our goal is to blend aesthetics with functionality to deliver an amazing user experience.</p>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2 data-aos="fade-right">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Web Development</h3>
+                    <p>Creating robust and scalable websites from scratch.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and beautiful user interfaces.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>AOS Animation</h3>
+                    <p>Integrating stunning scroll animations for a dynamic feel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2 data-aos="fade-right">Contact Us</h2>
+            <p data-aos="fade-left">Get in touch with us to start your next project!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ModernSite. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
